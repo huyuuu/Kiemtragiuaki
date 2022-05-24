@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Nhập cạnh đáy"
+        android:textSize="30dp"
+        android:layout_marginTop="80dp"></TextView>
+
+
+
+    <EditText
+        android:id="@+id/day"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:ems="6"
+        android:textAlignment="center"></EditText>
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Nhập cạnh bên"
+        android:textSize="30dp"
+        android:layout_marginTop="30dp"></TextView>
+
+
+
+    <EditText
+        android:id="@+id/ben"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:ems="6"
+        android:textAlignment="center"></EditText>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Nhập chiều cao"
+        android:textSize="30dp"
+        android:layout_marginTop="30dp"></TextView>
+
+
+
+    <EditText
+        android:id="@+id/cao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:ems="6"
+        android:textAlignment="center"></EditText>
+
+
+
+    <Button
+        android:id="@+id/Dientich_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Tính diện tích"
+        android:layout_marginTop="20dp"
+        android:onClick="calculateBMI"></Button>
+
+    <Button
+        android:id="@+id/Chuvi_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Tính Chu vi"
+        android:layout_marginTop="20dp"
+        android:onClick="calculateBMI"></Button>
+
+
+
+
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kết quả"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:textSize="30dp"></TextView>
+
+
+
+</LinearLayout>
